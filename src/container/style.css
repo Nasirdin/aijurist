@@ -1,0 +1,47 @@
+.cards {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.appointmentCard {
+  width: 300px;
+  padding: 20px;
+  background-color: #d1d1d1;
+  border-radius: 10px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.appointmentCard__title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.appointmentCard__text {
+  margin-bottom: 10px;
+}
+
+.appointmentCard__btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+.appointmentCard__accept,
+.appointmentCard__cancel {
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 6px;
+}
+.appointmentCard__accept {
+  background-color: #25b800;
+}
+.appointmentCard__cancel {
+  background-color: #b80000;
+}
+.appointmentCard__user {
+  color: rgb(0, 131, 188);
+}

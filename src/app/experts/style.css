@@ -1,0 +1,13 @@
+textarea {
+  outline: none;
+  padding: 10px;
+}
+
+button {
+  color: #fff;
+  cursor: pointer !important;
+}
+
+button:hover{
+  background-color: #22262e;
+}

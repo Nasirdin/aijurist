@@ -1,0 +1,23 @@
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-250px * 3));
+  }
+}
+
+.slides__container {
+  overflow: hidden;
+}
+
+.slides {
+  position: relative;
+
+  display: flex;
+  width: calc(100px * 6);
+  gap: 80px;
+
+  animation-play-state: paused;
+  animation: 30s slide linear infinite;
+}
