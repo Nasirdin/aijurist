@@ -25,6 +25,6 @@ export const cards = [
     icon: "/icons/Avatar.svg",
     animationType: "fade-left",
     title: "Continuous Learning",
-    text: "The more you use our app, the smarter it becomes. With machine learning capabilities, it constantly learns from each interaction",
+    text: "Приложение отправляет уведомления о важных событиях, изменениях в законодательстве и ответах на ваши вопросы, чтобы вы всегда были в курсе последних новостей.",
   },
 ];
