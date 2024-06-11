@@ -1,5 +1,6 @@
 // BANNER
-export const BANNER_TITLE_LABEL = "Your AI-Powered Chat Companion";
+export const BANNER_TITLE_LABEL = "";
+// export const BANNER_TITLE_LABEL = "Your AI-Powered Chat Companion";
 export const BANNER_TITLE = "Ваш персональный AI-юрист";
 export const BANNER_SUB_TITLE =
   "Представьте себе собеседника, который не только понимает ваши слова, но и предвидит ваши потребности.";
